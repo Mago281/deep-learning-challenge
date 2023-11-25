@@ -6,27 +6,27 @@ The nonprofit foundation Alphabet Soup is in need of a tool that can help it sel
 
 Alphabet Soup’s business team provided me with a CSV containing more than 34,000 organisations that have received funding from Alphabet Soup over the years.  Within this dataset are a number of columns that capture metadata about each organisation, such as:
 
-EIN and NAME — Identification columns
+  - EIN and NAME — Identification columns
 
-APPLICATION_TYPE — Alphabet Soup application type
+  - APPLICATION_TYPE — Alphabet Soup application type
 
-AFFILIATION — Affiliated sector of industry
+  - AFFILIATION — Affiliated sector of industry
 
-CLASSIFICATION — Government organisation classification
+  - CLASSIFICATION — Government organisation classification
 
-USE_CASE — Use case for funding
+  - USE_CASE — Use case for funding
 
-ORGANIZATION — Organisation type
+  - ORGANIZATION — Organisation type
 
-STATUS — Active status
+  - STATUS — Active status
 
-INCOME_AMT — Income classification
+  - INCOME_AMT — Income classification
 
-SPECIAL_CONSIDERATIONS — Special considerations for application
+  - SPECIAL_CONSIDERATIONS — Special considerations for application
 
-ASK_AMT — Funding amount requested
+  - ASK_AMT — Funding amount requested
 
-IS_SUCCESSFUL — Was the money used effectively
+  - IS_SUCCESSFUL — Was the money used effectively
 
 ________________________________________
 
