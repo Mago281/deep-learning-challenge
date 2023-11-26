@@ -70,7 +70,7 @@ Using the information we provided in the Challenge files, follow the instruction
 
 ________________________________________
 
-### Step 2: Compile, Train, and Evaluate the Model
+### Step 2: *Compile, Train, and Evaluate the Model*
 
 Using your knowledge of TensorFlow, you’ll design a neural network, or deep learning model, to create a binary classification model that can predict if an Alphabet Soup-funded organisation will be successful based on the features in the dataset. You’ll need to think about how many inputs there are before determining the number of neurons and layers in your model. Once you’ve completed that step, you’ll compile, train, and evaluate your binary classification model to calculate the model’s loss and accuracy.
 
@@ -107,7 +107,7 @@ Using your knowledge of TensorFlow, you’ll design a neural network, or deep le
 
 ________________________________________
 
-### Step 3: Optimise the Model
+### Step 3: *Optimise the Model*
 
 Using your knowledge of TensorFlow, optimise your model to achieve a target predictive accuracy higher than 75%.
 
@@ -150,7 +150,7 @@ Note: If you make at least three attempts at optimising your model, you will not
 
 ________________________________________
 
-### Step 4: Write a Report on the Neural Network Model
+### Step 4: *Write a Report on the Neural Network Model*
 
 For this part of the assignment, you’ll write a report on the performance of the deep learning model you created for Alphabet Soup.
 
@@ -173,11 +173,8 @@ The report should contain the following:
   	
 
   •	Compiling, Training, and Evaluating the Model
-
     o	How many neurons, layers, and activation functions did you select for your neural network model, and why?
-
     o	Were you able to achieve the target model performance?
-
     o	What steps did you take in your attempts to increase model performance?
 
 
