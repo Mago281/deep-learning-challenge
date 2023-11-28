@@ -72,7 +72,9 @@ ________________________________________
 
 ### Step 2: *Compile, Train, and Evaluate the Model*
 
-Using your knowledge of TensorFlow, you’ll design a neural network, or deep learning model, to create a binary classification model that can predict if an Alphabet Soup-funded organisation will be successful based on the features in the dataset. You’ll need to think about how many inputs there are before determining the number of neurons and layers in your model. Once you’ve completed that step, you’ll compile, train, and evaluate your binary classification model to calculate the model’s loss and accuracy.
+Using TensorFlow, I designed a neural network, or deep learning model, to create a binary classification model that could predict if an Alphabet Soup-funded organisation would be successful based on the features in the dataset.  
+
+To determine the number of neurons and layers in my model, I took into consideration how many inputs there were before determining the number of neurons and layers in my model.  Once I completed this step, I compiled, trained, and evaluated my binary classification model to calculate the model’s loss and accuracy.
 
 
 1.	Continue using the Jupyter Notebook in which you performed the preprocessing steps from Step 1.
