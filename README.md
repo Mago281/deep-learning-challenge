@@ -115,22 +115,22 @@ Using your knowledge of TensorFlow, optimise your model to achieve a target pred
 
 Use any or all of the following methods to optimise your model:
 
-•	Adjust the input data to ensure that no variables or outliers are causing confusion in the model, such as:
+- Adjust the input data to ensure that no variables or outliers are causing confusion in the model, such as:
 
-  o	Dropping more or fewer columns.
+    o	Dropping more or fewer columns.
   
-  o	Creating more bins for rare occurrences in columns.
+    o	Creating more bins for rare occurrences in columns.
   
-  o	Increasing or decreasing the number of values for each bin.
+    o	Increasing or decreasing the number of values for each bin.
   
   
-•	Add more neurons to a hidden layer.
+- Add more neurons to a hidden layer.
 
-•	Add more hidden layers.
+- Add more hidden layers.
 
-•	Use different activation functions for the hidden layers.
+- Use different activation functions for the hidden layers.
 
-•	Add or reduce the number of epochs to the training regimen.
+- Add or reduce the number of epochs to the training regimen.
 
 
 ***Note:  If you make at least three attempts at optimising your model, you will not lose points if your model does not achieve target performance.***
