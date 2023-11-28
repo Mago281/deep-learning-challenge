@@ -117,11 +117,11 @@ Use any or all of the following methods to optimise your model:
 
 - Adjust the input data to ensure that no variables or outliers are causing confusion in the model, such as:
 
-    o	Dropping more or fewer columns.
+      o	Dropping more or fewer columns.
   
-    o	Creating more bins for rare occurrences in columns.
+      o	Creating more bins for rare occurrences in columns.
   
-    o	Increasing or decreasing the number of values for each bin.
+      o	Increasing or decreasing the number of values for each bin.
   
   
 - Add more neurons to a hidden layer.
