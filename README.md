@@ -111,76 +111,50 @@ ________________________________________
 
 ### Step 3: *Optimise the Model*
 
-Using your knowledge of TensorFlow, optimise your model to achieve a target predictive accuracy higher than 75%.
+Used TensorFlow to optimise the model to achieve a target predictive accuracy higher than 75%.
 
-Use any or all of the following methods to optimise your model:
+Used any or all of the following methods to optimise the model:
 
-- Adjust the input data to ensure that no variables or outliers are causing confusion in the model, such as:
+- Adjusted the input data to ensure that no variables or outliers would cause confusion in the model, such as:
 
       o	Dropping more or fewer columns.
   
       o	Creating more bins for rare occurrences in columns.
   
-      o	Increasing or decreasing the number of values for each bin.
+      o	Increasing/decreasing the number of values for each bin.
   
   
-- Add more neurons to a hidden layer.
+- Added more neurons to a hidden layer.
 
-- Add more hidden layers.
+- Added more hidden layers.
 
-- Use different activation functions for the hidden layers.
+- Used different activation functions for the hidden layers.
 
-- Add or reduce the number of epochs to the training regimen.
+- Added/reduced the number of epochs to the training regimen.
 
 
-***Note:  If you make at least three attempts at optimising your model, you will not lose points if your model does not achieve target performance.***
+***Note:  I made three attempts at optimising my model to ensure that my model achieves target performance.***
 
-1.	Create a new Jupyter Notebook file and name it _AlphabetSoupCharity_Optimisation.ipynb_.
+1.	Created a new Jupyter Notebook file and name it _AlphabetSoupCharity_Optimisation.ipynb_.
     
 
-2.	Import your dependencies and read in the charity_data.csv to a Pandas DataFrame.
+2.	Imported dependencies and read in the _charity_data.csv_ to CoLab.
     
 
-3.	Preprocess the dataset as you did in Step 1. Be sure to adjust for any modifications that came out of optimising the model.
+3.	Pre-processed the dataset as in Step 1 and adjusted for any modifications that came out of optimising the model.
     
 
-4.	Design a neural network model, and be sure to adjust for modifications that will optimise the model to achieve higher than 75% accuracy.
+4.	Designed a neural network model, and adjustrd it for modifications that would optimise the model to achieve higher than 75% accuracy.
     
 
-5.	Save and export your results to an HDF5 file. Name the file _AlphabetSoupCharity_Optimisation.h5_.
+5.	Saved and exported the results to an HDF5 file and named the file _AlphabetSoupCharity_Optimisation.h5_.
     
 
 ________________________________________
 
-### Step 4: *Write a Report on the Neural Network Model*
+### Step 4: *Wrote a Report on the Neural Network Model*
 
-For this part of the assignment, you’ll write a report on the performance of the deep learning model you created for Alphabet Soup.
-
-The report should contain the following:
-
-1.	Overview of the analysis: Explain the purpose of this analysis.
-
-
-2.	Results: Using bulleted lists and images to support your answers, address the following questions:
-
-    •	Data Preprocessing
-
-      o	What variable(s) are the target(s) for your model?
-
-
-      o	What variable(s) are the features for your model?
-
-
-      o	What variable(s) should be removed from the input data because they are neither targets nor features?
-  	
-
-  •	Compiling, Training, and Evaluating the Model
-    o	How many neurons, layers, and activation functions did you select for your neural network model, and why?
-    o	Were you able to achieve the target model performance?
-    o	What steps did you take in your attempts to increase model performance?
-
-
-3.	Summary:	Summarise the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
+Wrote a report on the performance of the deep learning model that I created for Alphabet Soup.  Please refer to the following link below for the report that summarises the overall results of the deep learning model which includes a recommendation for how a different model could solve this classification problem, with an explanation for my recommendation:
 
 
 ________________________________________
