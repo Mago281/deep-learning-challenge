@@ -6,27 +6,27 @@ The nonprofit foundation Alphabet Soup is in need of a tool that can help it sel
 
 Alphabet Soup’s business team provided me with a CSV containing more than 34,000 organisations that have received funding from Alphabet Soup over the years.  Within this dataset are a number of columns that capture metadata about each organisation, such as:
 
-  - EIN and NAME — Identification columns
+  - **EIN** and **NAME*** — Identification columns
 
-  - APPLICATION_TYPE — Alphabet Soup application type
+  - **APPLICATION_TYPE** — Alphabet Soup application type
 
-  - AFFILIATION — Affiliated sector of industry
+  - **AFFILIATION** — Affiliated sector of industry
 
-  - CLASSIFICATION — Government organisation classification
+  - **CLASSIFICATION** — Government organisation classification
 
-  - USE_CASE — Use case for funding
+  - **USE_CASE** — Use case for funding
 
-  - ORGANIZATION — Organisation type
+  - **ORGANIZATION** — Organisation type
 
-  - STATUS — Active status
+  - **STATUS** — Active status
 
-  - INCOME_AMT — Income classification
+  - **INCOME_AMT** — Income classification
 
-  - SPECIAL_CONSIDERATIONS — Special considerations for application
+  - **SPECIAL_CONSIDERATIONS** — Special considerations for application
 
-  - ASK_AMT — Funding amount requested
+  - **ASK_AMT** — Funding amount requested
 
-  - IS_SUCCESSFUL — Was the money used effectively
+  - **IS_SUCCESSFUL** — Was the money used effectively
 
 ________________________________________
 
@@ -36,7 +36,7 @@ ________________________________________
 
 ### Step 1: *Preprocessing of the Data*
 
-Using your knowledge of Pandas and scikit-learn’s StandardScaler(), you’ll need to preprocess the dataset.  This step prepares you for Step 2, where you'll compile, train, and evaluate the neural network model.
+Using your knowledge of Pandas and scikit-learn’s StandardScaler(), you’ll need to preprocess the dataset.  
 
 Using the information we provided in the Challenge files, follow the instructions to complete the preprocessing steps.
 
@@ -47,7 +47,7 @@ Using the information we provided in the Challenge files, follow the instruction
     -  What variable(s) are the feature(s) for your model ?
 
 
-2.	Drop the EIN and NAME columns.
+2.	Drop the **EIN** and **NAME** columns.
 
 
 3.	Determine the number of unique values for each column.
@@ -59,13 +59,13 @@ Using the information we provided in the Challenge files, follow the instruction
 5.	Use the number of data points for each unique value to pick a cutoff point to bin "rare" categorical variables together in a new value, Other, and then check if the binning was successful.
 
 
-6.	Use pd.get_dummies() to encode categorical variables.
+6.	Use _pd.get_dummies()_ to encode categorical variables.
 
 
-7.	Split the preprocessed data into a features array, X, and a target array, y. Use these arrays and the train_test_split function to split the data into training and testing datasets.
+7.	Split the preprocessed data into a features array, X, and a target array, y. Use these arrays and the _train_test_split_ function to split the data into training and testing datasets.
 
 
-8.	Scale the training and testing features datasets by creating a StandardScaler instance, fitting it to the training data, then using the transform function.
+8.	Scale the training and testing features datasets by creating a _StandardScaler_ instance, fitting it to the training data, then using the transform function.
 
 
 ________________________________________
@@ -131,9 +131,9 @@ Use any or all of the following methods to optimise your model:
 •	Add or reduce the number of epochs to the training regimen.
 
 
-Note: If you make at least three attempts at optimising your model, you will not lose points if your model does not achieve target performance.
+***Note:  If you make at least three attempts at optimising your model, you will not lose points if your model does not achieve target performance.***
 
-1.	Create a new Jupyter Notebook file and name it AlphabetSoupCharity_Optimisation.ipynb.
+1.	Create a new Jupyter Notebook file and name it _AlphabetSoupCharity_Optimisation.ipynb_.
     
 
 2.	Import your dependencies and read in the charity_data.csv to a Pandas DataFrame.
@@ -145,7 +145,7 @@ Note: If you make at least three attempts at optimising your model, you will not
 4.	Design a neural network model, and be sure to adjust for modifications that will optimise the model to achieve higher than 75% accuracy.
     
 
-5.	Save and export your results to an HDF5 file. Name the file AlphabetSoupCharity_Optimisation.h5.
+5.	Save and export your results to an HDF5 file. Name the file _AlphabetSoupCharity_Optimisation.h5_.
     
 
 ________________________________________
