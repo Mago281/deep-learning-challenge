@@ -6,7 +6,7 @@ The nonprofit foundation Alphabet Soup is in need of a tool that can help it sel
 
 Alphabet Soup’s business team provided me with a CSV containing more than 34,000 organisations that have received funding from Alphabet Soup over the years.  Within this dataset are a number of columns that capture metadata about each organisation, such as:
 
-  - **EIN** and **NAME*** — Identification columns
+  - **EIN** and **NAME** — Identification columns
 
   - **APPLICATION_TYPE** — Alphabet Soup application type
 
