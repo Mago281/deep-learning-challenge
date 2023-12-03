@@ -59,7 +59,7 @@ I used Pandas and scikit-learn’s StandardScaler() and performed the following 
 
 5.	Used the number of data points for each unique value to pick a cutoff point to bin _"rare"_ categorical variables together in a new value, `Other`, and then checked if the binning was successful.
 
-    <img src="https://github.com/Mago281/deep-learning-challenge/assets/131424690/2c834a4b-93d4-415d-97b4-ec544f102947" width="200" height="175">
+    <img src="https://github.com/Mago281/deep-learning-challenge/assets/131424690/2c834a4b-93d4-415d-97b4-ec544f102947" width="200" height="150">
 
 
 6.	Used _pd.get_dummies()_ to encode categorical variables.
