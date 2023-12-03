@@ -48,9 +48,7 @@ I used Pandas and scikit-learn’s StandardScaler() and performed the following 
 
 2.	Dropped the non-beneficial ID columns **EIN** and **NAME**.
    
-    ![image](https://github.com/Mago281/deep-learning-challenge/assets/131424690/77f605a2-8eed-476c-b18f-3bc1725c9890)
-
-      <img src="https://github.com/Mago281/deep-learning-challenge/assets/131424690/77f605a2-8eed-476c-b18f-3bc1725c9890" width="300" height="250">
+    <img src="https://github.com/Mago281/deep-learning-challenge/assets/131424690/77f605a2-8eed-476c-b18f-3bc1725c9890" width="250" height="200">
 
 4.	Determined the number of unique values for each column.
 
