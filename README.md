@@ -31,41 +31,42 @@ Alphabet Soup’s business team provided me with a CSV containing more than 34,0
 ________________________________________
 
 ## STEPS TAKEN
-
 ________________________________________
 
 ### Step 1: *Preprocessing of the Data*
 
-Using your knowledge of Pandas and scikit-learn’s StandardScaler(), you’ll need to preprocess the dataset.  
+I used Pandas and scikit-learn’s StandardScaler() and performed the following steps to complete the preprocessing steps:
 
-Using the information we provided in the Challenge files, follow the instructions to complete the preprocessing steps.
+1.	Read in the charity_data.csv to a Pandas DataFrame, and identified the following in the dataset:
 
-1.	Read in the charity_data.csv to a Pandas DataFrame, and be sure to identify the following in your dataset:
+     ![image](https://github.com/Mago281/deep-learning-challenge/assets/131424690/7e09bf14-d865-462c-815b-26c08b7d5070)
 
-    -  What variable(s) are the target(s) for your model ?
+    -  _What variable(s) are the target(s) for the model ?_
+        #### 
+    -  _What variable(s) are the feature(s) for the model ?_
+        #### 
 
-    -  What variable(s) are the feature(s) for your model ?
+2.	Dropped the non-beneficial ID columns **EIN** and **NAME**.
+    ![image](https://github.com/Mago281/deep-learning-challenge/assets/131424690/77f605a2-8eed-476c-b18f-3bc1725c9890)
 
+      <img src="https://github.com/Mago281/CryptoClustering/assets/131424690/bd3f4052-6d7f-4594-b4dd-a425ff556df0" width="700" height="300">
 
-2.	Drop the **EIN** and **NAME** columns.
-
-
-3.	Determine the number of unique values for each column.
-
-
-4.	For columns that have more than 10 unique values, determine the number of data points for each unique value.
-
-
-5.	Use the number of data points for each unique value to pick a cutoff point to bin "rare" categorical variables together in a new value, Other, and then check if the binning was successful.
+4.	Determined the number of unique values for each column.
 
 
-6.	Use _pd.get_dummies()_ to encode categorical variables.
+5.	For columns that have more than 10 unique values, determine the number of data points for each unique value.
 
 
-7.	Split the preprocessed data into a features array, X, and a target array, y. Use these arrays and the _train_test_split_ function to split the data into training and testing datasets.
+6.	Use the number of data points for each unique value to pick a cutoff point to bin "rare" categorical variables together in a new value, Other, and then check if the binning was successful.
 
 
-8.	Scale the training and testing features datasets by creating a _StandardScaler_ instance, fitting it to the training data, then using the transform function.
+7.	Use _pd.get_dummies()_ to encode categorical variables.
+
+
+8.	Split the preprocessed data into a features array, X, and a target array, y. Use these arrays and the _train_test_split_ function to split the data into training and testing datasets.
+
+
+9.	Scale the training and testing features datasets by creating a _StandardScaler_ instance, fitting it to the training data, then using the transform function.
 
 
 ________________________________________
