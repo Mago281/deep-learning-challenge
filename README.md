@@ -120,8 +120,6 @@ ________________________________________
 
 Used any or all of the following methods to optimise the model:
 
-- 
-  
 
 **Note:  _I made three attempts at optimising my model to ensure that my model achieves target performance._**
 
