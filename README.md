@@ -101,10 +101,10 @@ To determine the number of neurons and layers in my model, I took into considera
 
 8.	Compiled and trained the model, refe to the snapshot of the first 5 records appended below:
 
-  	<img src="https://github.com/Mago281/deep-learning-challenge/assets/131424690/341bef03-f534-4069-aea4-9063efa646cb" width="550" height="200">
+  	<img src="https://github.com/Mago281/deep-learning-challenge/assets/131424690/341bef03-f534-4069-aea4-9063efa646cb" width="550" height="180">
 
 
-10.	Create a callback that saves the model's weights every five epochs.
+10.	#### Created a callback that saved the model's weights every five epochs.
 
 
 11.	Evaluated the model using the test data to determine the loss and accuracy.
@@ -115,31 +115,15 @@ To determine the number of neurons and layers in my model, I took into considera
 
 ________________________________________
 
-### Step 3: *Optimise the Model*
+### Step 3: *Optimised the Model*
 
-Used TensorFlow to optimise the model to achieve a target predictive accuracy higher than 75%.
 
 Used any or all of the following methods to optimise the model:
 
-- Adjusted the input data to ensure that no variables or outliers would cause confusion in the model, such as:
-
-      o	Dropping more or fewer columns.
+- 
   
-      o	Creating more bins for rare occurrences in columns.
-  
-      o	Increasing/decreasing the number of values for each bin.
-  
-  
-- Added more neurons to a hidden layer.
 
-- Added more hidden layers.
-
-- Used different activation functions for the hidden layers.
-
-- Added/reduced the number of epochs to the training regimen.
-
-
-***Note:  I made three attempts at optimising my model to ensure that my model achieves target performance.***
+**Note:  _I made three attempts at optimising my model to ensure that my model achieves target performance._**
 
 1.	Created a new Jupyter Notebook file and name it _AlphabetSoupCharity_Optimisation.ipynb_.
     
@@ -147,20 +131,22 @@ Used any or all of the following methods to optimise the model:
 2.	Imported dependencies and read in the _charity_data.csv_ to CoLab.
     
 
-3.	Pre-processed the dataset as in Step 1 and adjusted for any modifications that came out of optimising the model.
+3.	Repeated the preprocessing steps above in a new notebook and used TensorFlow to optimise the model in order to achieve a target predictive accuracy higher than 75%.  
+
+4.  Adjusted for any modifications that came out of optimising the model i.e. adjusted the input data to ensure that no variables or outliers would cause confusion in the model, e.g. dropping only 1 column (**`EIN`**) instead of 2 (**`EIN`** & **`NAME`**).
     
 
-4.	Designed a neural network model, and adjustrd it for modifications that would optimise the model to achieve higher than 75% accuracy.
+5.	Designed a neural network model, and adjusted it for modifications that would optimise the model to achieve higher than 75% accuracy.
     
 
-5.	Saved and exported the results to an HDF5 file and named the file _AlphabetSoupCharity_Optimisation.h5_.
+6.	Saved and exported the results to an HDF5 file and named the file _AlphabetSoupCharity_Optimisation.h5_.
     
 
 ________________________________________
 
 ### Step 4: *Wrote a Report on the Neural Network Model*
 
-Wrote a report on the performance of the deep learning model that I created for Alphabet Soup.  Please refer to the following link below for the report that summarises the overall results of the deep learning model which includes a recommendation for how a different model could solve this classification problem, with an explanation for my recommendation:
+Wrote a report on the performance of the deep learning model that I created for Alphabet Soup.  **Please refer to the following link below for the report that summarises the overall results of the deep learning model which includes a recommendation for how a different model could solve this classification problem, with an explanation for my recommendation:**
 
 
 ________________________________________
