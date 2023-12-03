@@ -99,7 +99,7 @@ To determine the number of neurons and layers in my model, I took into considera
 7.	Checked the structure of the model.
 
 
-8.	Compiled and trained the model, refe to the snapshot of the first 5 records appended below:
+8.	Compiled and trained the model, refer to the snapshot of the first 5 records appended below:
 
   	<img src="https://github.com/Mago281/deep-learning-challenge/assets/131424690/341bef03-f534-4069-aea4-9063efa646cb" width="550" height="170">
 
@@ -130,6 +130,7 @@ Used any or all of the following methods to optimise the model:
     
 
 3.	Repeated the preprocessing steps above in a new notebook and used TensorFlow to optimise the model in order to achieve a target predictive accuracy higher than 75%.  
+
 
 4.  Adjusted for any modifications that came out of optimising the model i.e. adjusted the input data to ensure that no variables or outliers would cause confusion in the model, e.g. dropping only 1 column (**`EIN`**) instead of 2 (**`EIN`** & **`NAME`**).
     
