@@ -101,7 +101,7 @@ To determine the number of neurons and layers in my model, I took into considera
 
 8.	Compiled and trained the model, refe to the snapshot of the first 5 records appended below:
 
-  	<img src="https://github.com/Mago281/deep-learning-challenge/assets/131424690/341bef03-f534-4069-aea4-9063efa646cb" width="550" height="180">
+  	<img src="https://github.com/Mago281/deep-learning-challenge/assets/131424690/341bef03-f534-4069-aea4-9063efa646cb" width="550" height="170">
 
 
 10.	#### Created a callback that saved the model's weights every five epochs.
