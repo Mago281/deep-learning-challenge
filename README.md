@@ -84,7 +84,7 @@ To determine the number of neurons and layers in my model, I took into considera
 
 2.	Created a neural network model by assigning the number of input features and nodes for each layer using TensorFlow and Keras.
 
-  	 <img src="https://github.com/Mago281/deep-learning-challenge/assets/131424690/f97731f8-df33-43eb-8384-e696c162cc51" width="300" height="175">
+  	 <img src="https://github.com/Mago281/deep-learning-challenge/assets/131424690/f97731f8-df33-43eb-8384-e696c162cc51" width="350" height="180">
     
 
 3.	Created the first hidden layer and chose an appropriate activation function.
@@ -101,7 +101,7 @@ To determine the number of neurons and layers in my model, I took into considera
 
 8.	Compiled and trained the model, refe to the snapshot of the first 5 records appended below:
 
-  	<img src="https://github.com/Mago281/deep-learning-challenge/assets/131424690/341bef03-f534-4069-aea4-9063efa646cb" width="600" height="200">
+  	<img src="https://github.com/Mago281/deep-learning-challenge/assets/131424690/341bef03-f534-4069-aea4-9063efa646cb" width="550" height="220">
 
 
 10.	Create a callback that saves the model's weights every five epochs.
