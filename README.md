@@ -73,41 +73,41 @@ I used Pandas and scikit-learn’s StandardScaler() and performed the following 
 
 ________________________________________
 
-### Step 2: *Compile, Train, and Evaluate the Model*
+### Step 2: *Compiled, Trained, and Evaluated the Model*
 
-Using TensorFlow, I designed a neural network, or deep learning model, to create a binary classification model that could predict if an Alphabet Soup-funded organisation would be successful based on the features in the dataset.  
+Using TensorFlow, I designed a deep learning model, to create a binary classification model that could predict if an Alphabet Soup-funded organisation would be successful based on the features in the dataset.  
 
 To determine the number of neurons and layers in my model, I took into consideration how many inputs there were before determining the number of neurons and layers in my model.  Once I completed this step, I compiled, trained, and evaluated my binary classification model to calculate the model’s loss and accuracy.
 
+1.	Continued using the Jupyter Notebook in which i performed the preprocessing steps from Step.
 
-1.	Continue using the Jupyter Notebook in which you performed the preprocessing steps from Step 1.
+2.	Created a neural network model by assigning the number of input features and nodes for each layer using TensorFlow and Keras.
 
-
-2.	Create a neural network model by assigning the number of input features and nodes for each layer using TensorFlow and Keras.
-
+  	 <img src="https://github.com/Mago281/deep-learning-challenge/assets/131424690/f97731f8-df33-43eb-8384-e696c162cc51" width="300" height="175">
+    
 
 3.	Create the first hidden layer and choose an appropriate activation function.
 
 
-4.	If necessary, add a second hidden layer with an appropriate activation function.
+5.	If necessary, add a second hidden layer with an appropriate activation function.
 
 
-5.	Create an output layer with an appropriate activation function.
+6.	Create an output layer with an appropriate activation function.
 
 
-6.	Check the structure of the model.
+7.	Check the structure of the model.
 
 
-7.	Compile and train the model.
+8.	Compile and train the model.
 
 
-8.	Create a callback that saves the model's weights every five epochs.
+9.	Create a callback that saves the model's weights every five epochs.
 
 
-9.	Evaluate the model using the test data to determine the loss and accuracy.
+10.	Evaluate the model using the test data to determine the loss and accuracy.
 
 
-10.	Save and export your results to an HDF5 file. Name the file AlphabetSoupCharity.h5.
+11.	Save and export your results to an HDF5 file. Name the file AlphabetSoupCharity.h5.
 
 
 ________________________________________
