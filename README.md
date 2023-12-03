@@ -65,7 +65,7 @@ I used Pandas and scikit-learn’s StandardScaler() and performed the following 
 6.	Used _pd.get_dummies()_ to encode categorical variables.
 
 
-7.	Split the preprocessed data into a features array, X, and a target array, y.  Used these arrays and the _`train_test_split`_ function to split the data into training and testing datasets.
+7.	Split the preprocessed data into a features array, `X`, and a target array, `y`.  Used these arrays and the _`train_test_split`_ function to split the data into training and testing datasets.
 
 
 8.	Scaled the training and testing features datasets by creating a _StandardScaler_ instance, fitting it to the training data, then using the transform function.
