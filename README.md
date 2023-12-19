@@ -62,7 +62,7 @@ I used Pandas and scikit-learn’s StandardScaler() and performed the following 
     <img src="https://github.com/Mago281/deep-learning-challenge/assets/131424690/2c834a4b-93d4-415d-97b4-ec544f102947" width="200" height="155">
 
 
-5.	Used _pd.get_dummies()_ to encode categorical variables.
+5.	Used `_pd.get_dummies()_` to encode categorical variables.
 
 
 6.	Split the preprocessed data into a features array, `X`, and a target array, `y`.  Used these arrays and the _`train_test_split`_ function to split the data into training and testing datasets.
