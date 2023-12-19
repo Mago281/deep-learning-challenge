@@ -42,9 +42,11 @@ I used Pandas and scikit-learn’s StandardScaler() and performed the following 
      ![image](https://github.com/Mago281/deep-learning-challenge/assets/131424690/7e09bf14-d865-462c-815b-26c08b7d5070)
 
     -  _What variable(s) are the target(s) for the model ?_
-        #### 
+        ####  The target variable is the '`IS_SUCCESSFUL`'  column
     -  _What variable(s) are the feature(s) for the model ?_
-        #### 
+        #### The feature variables are every other column apart from the '`IS_SUCCESSFUL`'  column
+    -  _o	What variable(s) should be removed from the input data because they are neither targets nor features?_
+        #### Both '`EIN`' and '`NAME`' columns were dropped/removed, because they were neither targets nor features for the dataset.
 
 2.	Dropped the non-beneficial ID columns **EIN** and **NAME**.
 
