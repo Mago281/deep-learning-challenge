@@ -79,7 +79,7 @@ Using TensorFlow, I designed a deep learning model, to create a binary classific
 
 To determine the number of neurons and layers in my model, I took into consideration how many inputs there were before determining the number of neurons and layers in my model.  Once I completed this step, I compiled, trained, and evaluated my binary classification model to calculate the model’s loss and accuracy.
 
-1.	Continued using the Jupyter Notebook in which i performed the preprocessing steps from Step.
+1.	Continued using the Jupyter Notebook in which I performed the preprocessing steps from Step.
 
 
 2.	Created a neural network model by assigning the number of input features and nodes for each layer using TensorFlow and Keras.
@@ -90,27 +90,27 @@ To determine the number of neurons and layers in my model, I took into considera
 3.	Created the first hidden layer and chose an appropriate activation function.
 
 
-5.	Add a second hidden layer with an appropriate activation function.
+4.	Added a second hidden layer with an appropriate activation function.
 
 
-6.	Created an output layer with an appropriate activation function.
+5.	Created an output layer with an appropriate activation function.
 
 
-7.	Checked the structure of the model.
+6.	Checked the structure of the model.
 
 
-8.	Compiled and trained the model, refer to the snapshot of the first 5 records appended below:
+7.	Compiled and trained the model, refer to the snapshot of the first 5 records appended below:
 
   	<img src="https://github.com/Mago281/deep-learning-challenge/assets/131424690/341bef03-f534-4069-aea4-9063efa646cb" width="550" height="170">
 
 
-10.	#### Created a callback that saved the model's weights every five epochs.
+8.	#### Created a callback that saved the model's weights every five epochs.
 
 
-11.	Evaluated the model using the test data to determine the loss and accuracy.
+9.	Evaluated the model using the test data to determine the loss and accuracy.
 
 
-12.	Saved and exported the results to an HDF5 file and named the file **`AlphabetSoupCharity.h5`**.
+10.	Saved and exported the results to an HDF5 file and named the file **`AlphabetSoupCharity.h5`**.
 
 
 ________________________________________
@@ -123,7 +123,7 @@ Used any or all of the following methods to optimise the model:
 
 **Note:  _I made three attempts at optimising my model to ensure that my model achieves target performance._**
 
-1.	Created a new Jupyter Notebook file and name it _AlphabetSoupCharity_Optimisation.ipynb_.
+1.	Created a new Jupyter Notebook file and named it _AlphabetSoupCharity_Optimisation.ipynb_.
     
 
 2.	Imported dependencies and read in the _charity_data.csv_ to CoLab.
@@ -145,7 +145,7 @@ ________________________________________
 
 ### Step 4: *Wrote a Report on the Neural Network Model*
 
-Wrote a report on the performance of the deep learning model that I created for Alphabet Soup.  **Please refer to the following link below for the report that summarises the overall results of the deep learning model which includes a recommendation for how a different model could solve this classification problem, with an explanation for my recommendation:**
+Please refer to the '**Report on the Neural Network Model**' that summarises the overall results of the deep learning model which includes a recommendation for how a different model could solve this classification problem, with an explanation for my recommendation:
 
 
 ________________________________________
