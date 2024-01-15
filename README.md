@@ -132,7 +132,7 @@ Used any or all of the following methods to optimise the model:
 3.	Repeated the preprocessing steps above in a new notebook and used TensorFlow to optimise the model in order to achieve a target predictive accuracy higher than 75%.  
 
 
-4.  Adjusted for any modifications that came out of optimising the model i.e. adjusted the input data to ensure that no variables or outliers would cause confusion in the model, e.g. dropping only 1 column (**`EIN`**) instead of 2 (**`EIN`** & **`NAME`**).
+4.  Adjusted for any modifications that came out of optimising the model i.e. adjusted the input data to ensure that no variables or outliers would cause confusion in the model, e.g. dropping only 1 column (**`NAME`**) instead of 2 (**`EIN`** & **`NAME`**).
     
 
 5.	Designed a neural network model, and adjusted it for modifications that would optimise the model to achieve higher than 75% accuracy.
