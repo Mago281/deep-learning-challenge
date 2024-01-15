@@ -104,7 +104,7 @@ To determine the number of neurons and layers in my model, I took into considera
   	<img src="https://github.com/Mago281/deep-learning-challenge/assets/131424690/341bef03-f534-4069-aea4-9063efa646cb" width="550" height="170">
 
 
-8.	#### Created a callback that saved the model's weights every five epochs.
+8.	Created a callback that saved the model's weights every five epochs.
 
 
 9.	Evaluated the model using the test data to determine the loss and accuracy.
