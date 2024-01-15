@@ -73,7 +73,9 @@ I used Pandas and scikit-learn’s StandardScaler() and performed the following 
 
 ________________________________________
 
-### Step 2: *Compiled, Trained, and Evaluated the Model*
+### Step 2: *Compiled, Trained, and Evaluated the Models*
+
+**Note:  _I made three attempts at optimising my model to ensure that my model achieved target performance._**
 
 Using TensorFlow, I designed a deep learning model, to create a binary classification model that could predict if an Alphabet Soup-funded organisation would be successful based on the features in the dataset.  
 
@@ -120,8 +122,6 @@ ________________________________________
 
 Used any or all of the following methods to optimise the model:
 
-
-**Note:  _I made three attempts at optimising my model to ensure that my model achieves target performance._**
 
 1.	Created a new Jupyter Notebook file and named it _AlphabetSoupCharity_Optimisation.ipynb_.
     
